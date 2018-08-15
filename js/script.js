@@ -15,11 +15,11 @@ jQuery(document).ready(function ($) {
     ------------------------------------*/
     $('a.gallery').colorbox({
         rel:'gal',
-        width: '80%', 
-        height: '80%'
+        width: '95%', 
+        height: '95%'
     });
 
-    
+
 
     function anchor_scroll_capsule(e) {
         if (!e.sudo) {

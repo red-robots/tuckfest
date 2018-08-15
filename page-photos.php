@@ -30,7 +30,7 @@ get_header('page'); ?>
 		?>
 		<div class="gal-thumb">
 			<a class="gallery" href="<?php echo $image['url']; ?>">
-				<img src="<?php echo $image['sizes']['thumbnail']; ?>">
+				<img src="<?php echo $image['sizes']['medium']; ?>">
 			</a>
 			
 		</div>

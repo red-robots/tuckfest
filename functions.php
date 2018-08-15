@@ -37,6 +37,7 @@ function shaken_setup() {
 		add_theme_support( 'post-thumbnails');
 		add_image_size( 'tile', 275, 175, true);
 		add_image_size( 'article', 200, 267, true);
+		add_image_size( 'gallery', 300, 300, true);
 		
 		/**
 		 * Support added for theme specific components 
